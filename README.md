@@ -2,6 +2,16 @@
 
 
 # Introduction to Developing with Sitecore
+## Introduction to Developing with Sitecore
+### INTRODUCTION
+#### What is a Sitecore Developer?
+#### What does it take to be a Certified Sitecore Developer?
+### FOUNDATIONAL TERMINOLOGY
+#### Key terms and definitions
+#### Items, content tree, and templates
+#### Components and renderings
+#### Placeholders, layouts, and presentation details
+
 
 [MVC](https://doc.sitecore.com/xp/en/developers/101/sitecore-experience-manager/mvc.html)
 [Sitecore Headless Development](https://doc.sitecore.com/xp/en/developers/101/developer-tools/sitecore-headless-development.html)
@@ -10,6 +20,17 @@
 
 # Introduction to Sitecore Experience Manager (XM)
 
+## Introduction to Sitecore Experience Manager (XM)
+
+### INTRODUCTION
+#### What is Sitecore XM?
+#### How does Sitecore XM bring value to your work?
+### GETTING STARTED WITH SITECORE XM
+#### How does Sitecore XM work?
+#### Navigating Sitecore XM
+
+
+
 [Architecture overview](https://learning.sitecore.com/partners/learn/course/7/play/524:321/introduction-to-sitecore-experience-manager-xm;lp=10)
 [Content Management](https://doc.sitecore.com/xp/en/developers/102/platform-administration-and-architecture/content-management.html)
 [Publishing](https://doc.sitecore.com/xp/en/developers/102/platform-administration-and-architecture/publishing.html)
@@ -17,6 +38,17 @@
 
 
 # Introduction to Sitecore Experience Platform (XP)
+
+## Introduction to Sitecore Experience Platform (XP)
+
+### INTRODUCTION
+#### What is Sitecore XP?
+#### What is the value of Sitecore XP?
+#### Sitecore XP in action: case studies
+### GETTING STARTED WITH SITECORE XP
+#### Logging in to and navigating Sitecore XP
+#### Summary and Knowledge Check
+
 
 [Content Editor](https://doc.sitecore.com/xp/en/users/101/sitecore-experience-platform/the-content-editor.html)
 [The Experience Editor](https://doc.sitecore.com/xp/en/users/101/sitecore-experience-platform/the-experience-editor.html)
@@ -34,7 +66,44 @@
 [Sitecore JavaScript Rendering SDKs (JSS)](https://doc.sitecore.com/xp/en/developers/hd/19/sitecore-headless-development/sitecore-javascript-rendering-sdks--jss-.html)
 [Sitecore ASP.NET Rendering SDK](https://doc.sitecore.com/xp/en/developers/hd/19/sitecore-headless-development/sitecore-asp-net-rendering-sdk.html)
 
-# Discover the Sitecore 10 Development Offerings
+# Sitecore 10 Development Features Overview
+
+## Single 1: Discover the Sitecore 10 Development Offerings
+
+### TRACK 1: EXPLORE THE NEW TOOLS AVAILABLE WITH SITECORE 10
+#### Instruction Lab
+#### Micro Video
+### TRACK 2: REVIEW THE SITECORE 10 DEVELOPMENT EXPERIENCE
+#### Instruction Lab
+#### Audio Lab
+### TRACK 3: LOCATE THE RESOURCES FOR SITECORE 10 DEVELOPMENT
+#### Instruction Lab
+#### Micro Video
+
+## Single 2: Develop with Sitecore 10
+### TRACK 1: FAMILIARIZE YOURSELF WITH SITECORE 10 CONTAINERS
+#### Instruction Lab
+#### Audio Lab
+### TRACK 2: DISCOVER THE SITECORE CONTENT SERIALIZATION FEATURE
+#### Instruction Lab
+#### Audio Lab
+### TRACK 3: EXPLORE THE ASP.NET CORE RENDERING SDK
+#### Instruction Lab
+#### Audio Lab
+### EXTENDED TRACKS
+#### Audio Lab
+
+
+## Single 3: Use the Getting Started Template to Set Up a Sitecore 10 Environment
+### TRACK 1: PREPARE THE PREREQUISITES
+#### Instruction Lab
+#### Audio Lab
+#### Micro-Video Lab
+### TRACK 2: INSTALL THE GETTING STARTED TEMPLATE
+#### Micro-Video Lab
+#### Practice Lab
+
+
 [Sitecore Helix Documentation](https://helix.sitecore.com/)
 NOTE: If you are unfamiliar with the Sitecore Helix architecture conventions and would like to learn more, you can visit the Sitecore documentation on Helix or take the Helix Collection training available in this [Technical Product Solution](https://sitecore.ent.learndot.com/pathway/sitecore-experience-platform--technical).
 [Sitecore Documentation](https://doc.sitecore.com/)
@@ -47,20 +116,39 @@ To learn more about using the Support Portal, please read this [KB article](http
 
 Walkthrough: Using the [Getting Started template](https://doc.sitecore.com/xp/en/developers/100/developer-tools/walkthrough--using-the-getting-started-template.html)
 
-# Installing & Managing Sitecore Experience Platform 10
+
+
 Note: More information about [Sitecore roles](https://doc.sitecore.com/en/developers/101/platform-administration-and-architecture/roles-overview.html) is available in Sitecore documentation.
 Note: More information about [Sitecore XP roles](https://doc.sitecore.com/en/developers/100/platform-administration-and-architecture/experience-platform-roles.html) is available in Sitecore documentation.
 
-## Sitecore architecture & containers (45m)
+# Installing & Managing Sitecore Experience Platform 10
+
+## Single 1: Sitecore architecture & containers
+### Tutorial: Review Sitecore architecture
+### Video: Introduction to Sitecore Forms and Email Experience Manager
+### Tutorial: Get started with Sitecore containers
+### Walkthrough: How to launch your Sitecore environment in Docker
+
+
 Docker Compose files for each Sitecore topology are included in the Sitecore Container Support Package that you can download from [https://dev.sitecore.com](https://dev.sitecore.com/).
 Step 2: Download and extract or clone the Docker Examples repository found here to [C:/sitecore/docker-examples](https://github.com/Sitecore/docker-examples).
 Alternatively, you can follow instructions on the [SitecoreDockerTools](https://sitecore.myget.org/gallery/sc-powershell) MyGet page.
 
-## Sitecore Experience Platform installation, updates, & upgrades (45m)
+## Single 2: Sitecore Experience Platform installation, updates, & upgrades
+### Tutorial: Preparing, configuring, and installing XP0
+### Video: Performing a Sitecore XP0 installation
+### Tutorial: Manage updates and upgrades for Sitecore XP
+### Podcast: Tips for seamless product updates and upgrades
+
 
 Note: More information about the [Update Center](https://doc.sitecore.com/en/developers/100/platform-administration-and-architecture/the-update-center.html) is available in Sitecore documentation.
 
-## Performance maximization, health monitoring, & Sitecore support (45m)
+## Single 3: Performance maximization, health monitoring, & Sitecore support
+
+### Tutorial: Performance maximization and health monitoring
+### Podcast: Tips for maintaining optimal Sitecore product performance
+### Tutorial: Working with Sitecore support
+### Walkthrough: Submitting a Sitecore support case
 
 All strategies delivered with Sitecore are defined in the Sitecore.ContentSearch configuration files.
 If you would like additional information, this [article](https://doc.sitecore.com/en/developers/101/platform-administration-and-architecture/index-update-strategies.html) can supplement the details provided in this guide.
@@ -85,108 +173,75 @@ Including this information allows the Support Team to work on multiple support c
 Note: For more information on how to register your Sitecore license, read this [article](https://support.sitecore.com/kb?id=kb_article_view&sysparm_article=KB0073804#HowToRegisterLicenseUsingLicenseXMLFile).
 
 # Development practices and serialization
-
-## Sitecore Serialization with TDS
-
+## Development practices and serialization
+### Sitecore Serialization with TDS
 Sitecore TDS is available for trial by accessing the website [teamdevelopmentforsitecore.com](http://teamdevelopmentforsitecore.com/) and requesting a trial license.
 
-## Unit testing scripts
-
+### Unit testing scripts
 Note: To learn more, see the [Arrange, Act, Assert](https://docs.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2019.) article by Microsoft.
 
+### Debug a Sitecore project
 # Site structure and data architecture
-
-## Deconstruct a webpage
-
-## Creating data templates
-
-## Template inheritance
+## Site structure and data architecture
+### Deconstruct a webpage
+### Creating data templates
+### Template inheritance
 
 # Create items from data templates
-
-## Standard values
-
-## Insert options
-
-## Use complex data and field types
-
+## Create items from data templates
+### Standard values
+### Insert options
+### Use complex data and field types
 To learn more about the list field types, review [Sitecore's documentation on simple field types](https://doc.sitecore.com/xp/en/developers/102/sitecore-experience-manager/the-simple-field-types.html).
 
 # Sitecore MVC component creation
-
-## Create layouts, designate placeholders, and set presentation
-
-## Use Sitecore MVC HTML Field Helpers
-
-## Differentiate between context items and data source items
-
-## Create view and controller renderings
-
-## Bind components and create page presentation
+## Sitecore MVC component creation
+### Create layouts, designate placeholders, and set presentation
+### Use Sitecore MVC HTML Field Helpers
+### Differentiate between context items and data source items
+### Create view and controller renderings
+### Bind components and create page presentation
 
 # Sitecore MVC advanced component creation
-
-## Use dynamic placeholders
-
+## Sitecore MVC advanced component creation
+### Use dynamic placeholders
 Note: To learn more about dynamic placeholders in Sitecore, please visit [Sitecore Documentation](https://doc.sitecore.com/developers/93/sitecore-experience-manager/en/dynamic-placeholders.html).
-
-## Add rendering parameters
-
-## Add a form to a page
-
+### Add rendering parameters
+### Add a form to a page
 Note: Sitecore Forms can be heavily customized by a Developer. To learn more about Sitecore Forms, please visit [Sitecore Documentation](https://doc.sitecore.com/xp/en/developers/93/sitecore-experience-manager/sitecore-forms.html).
-
-## Create an item using code
-
-# Search, item buckets, and indexes
-
-## Using built-in item search
-
-Note: To learn more about Sitecore's search functionality, check out the [Sitecore documentation on the topic](https://doc.sitecore.com/xp/en/users/93/sitecore-experience-platform/searching.html).
+### Create an item using code
 
 # Search, item buckets, and indexes
+## Search, item buckets, and indexes
 
-## Using built-in item search
+
+### SEARCHING CONTENT IN SITECORE
+#### Using built-in item search
 Note: To learn more about Sitecore's search functionality, check out the [Sitecore documentation on the topic](https://doc.sitecore.com/xp/en/users/93/sitecore-experience-platform/searching.html).
-
-## Create item buckets and bucketable items
+#### Create item buckets and bucketable items
 Note: To learn more about buckets and bucketable items, check out the [Sitecore documentation on the topic](https://doc.sitecore.com/xp/en/users/93/sitecore-experience-platform/using-item-buckets.html).
+#### Use ContentSearch API
+### ADDITIONAL SEARCH RELATED TOPICS
+#### Establish custom indexes
+#### Display search results
 
-## Use ContentSearch API
-
-## Establish custom indexes
-
-## Display search results
 
 # Go-live considerations
-
-## Configure Sitecore for security and performance
+## Go-live considerations
+### Configure Sitecore for security and performance
 Certain databases hosted by MongoDB are secured by default. However, MongoDB offers a range of features you can use to ensure the security of your deployment, including authentication and access control. You can find more information about [securing MongoDB](https://www.mongodb.com/docs/manual/security/) here.
-
-## Establish 404 and 500 error pages
-
-## Create multilingual sites
-
-## Impact site performance with caching
-
+### Establish 404 and 500 error pages
+### Create multilingual sites
+### Impact site performance with caching
 More details on the available options for caching can be found [here](https://doc.sitecore.com/xp/en/developers/82/sitecore-experience-platform/configure-html-caching.html).
-
 To learn more about enabling cache key indexing, click [here](https://doc.sitecore.com/developers/92/platform-administration-and-architecture/en/enable-cache-key-indexing.html).
-
-
-
-
-
+### Establish a launch strategy
 
 
 # Explore Sitecore Content Serialization (45m)
-
 ## Single 1: Explore Sitecore Content Serialization
-
 ### TRACK 1: UNDERSTAND CONTENT SERIALIZATION
-
 #### Instruction Lab
-
 Note: For more details on how TDS can support your Sitecore deployment, visit the [Team Development for Sitecore website](https://www.teamdevelopmentforsitecore.com/TDS-Classic).
 
 Sitecore publishes detailed information about popular known issues in Sitecore products and the necessary patches, hotfixes, or workarounds. You can find these on the [Sitecore Knowledge Base](https://kb.sitecore.net/).
@@ -197,88 +252,47 @@ Take extra care and make sure to locally test any additions to your Sitecore sol
 Note: In this Album, we will be using the Dotnet New Getting Started template. For more information on how to get this template up and running, [click here](https://doc.sitecore.com/developers/100/developer-tools/en/walkthrough--using-the-getting-started-template.html).
 
 #### Audio Lab
-
 ### TRACK 2: CONFIGURE SITECORE COMMAND LINE INTERFACE (CLI)
-
 #### Instruction Lab
-
 Note: In this Album, we will be using the Dotnet New Getting Started template. For more information on how to get this template up and running, click [here](https://doc.sitecore.com/xp/en/developers/100/developer-tools/walkthrough--using-the-getting-started-template.html).
-
 #### Audio Lab
-
 ### TRACK 3: SET UP SITECORE FOR VISUAL STUDIO
-
 #### Instruction Lab
-
 #### Audio Lab
-
-
-
-
-
 
 # Introduction to Sitecore Content Serialization 10
-
 ## Single 1: Explore Sitecore Content Serialization
-
 ### TRACK 1: UNDERSTAND CONTENT SERIALIZATION
-
 #### Instruction Lab
-
 #### Audio Lab
-
 ### TRACK 2: CONFIGURE SITECORE COMMAND LINE INTERFACE (CLI)
-
 #### Instruction Lab
-
 #### Audio Lab
-
 ### TRACK 3: SET UP SITECORE FOR VISUAL STUDIO
-
 #### Instruction Lab
-
 #### Audio Lab
-
 ### EXTENDED TRACK
-
 ## Single 2: Utilize Sitecore Content Serialization
 
-
 ### TRACK 1: CREATE MODULES FOR SERIALIZATION WITH TEXT EDITOR AND SVS
-
 #### Instruction Lab
-
 #### Audio Lab
-
 ### TRACK 2: CONFIGURE ITEM INCLUDES USING TEXT EDITOR AND SVS
-
 #### Instruction Lab
-
 #### Audio Lab
-
 ### TRACK 3: EDIT RULES USING TEXT EDITOR AND SVS
-
 #### Instruction Lab
-
 #### Audio Lab
 
 ### TRACK 4: SERIALIZE ITEMS USING SITECORE CLI AND SVS
-
 #### Instruction Lab
-
 #### Audio Lab
-
 ### TRACK 5: AUTOMATION OF ITEM PACKAGING AND DEPLOYMENT
-
 #### Instruction Lab
-
 #### Audio Lab
-
-
 
 
 # Get Started with Containers for Sitecore
-
 ## Single 1: Prepare to Run Sitecore Using Docker
 
 ### TRACK 1: REVIEW THE SYSTEM PREREQUISITES
