@@ -221,6 +221,8 @@ If you would like additional information, this [article](https://doc.sitecore.co
 #### Create item buckets and bucketable items
 - Note: To learn more about buckets and bucketable items, check out the [Sitecore documentation on the topic](https://doc.sitecore.com/xp/en/users/93/sitecore-experience-platform/using-item-buckets.html).
 #### Use ContentSearch API
+
+- Sitecore.ContentSearch and Sitecore.ContentSearch.Linq DLL
 ### ADDITIONAL SEARCH RELATED TOPICS
 #### Establish custom indexes
 #### Display search results
