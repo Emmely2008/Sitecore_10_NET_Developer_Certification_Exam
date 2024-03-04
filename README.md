@@ -271,6 +271,72 @@ To run Sitecore with containers:
 - Obtain a Sitecore license file.
 - Prepare an environment variable (.env) file with the necessary configurations.
 
+Sitecore Experience Platform (XP) 10 supports three main topologies for container deployment: XP Workstation, XM Server, and XP Server. Understanding the purpose and capabilities of each helps optimize the operation of Sitecore within containers.
+
+#### XP Workstation
+
+Designed for Docker as a Developer workstation with the following roles supported in a non-production environment:
+
+- Content Management (standalone)
+- Sitecore Identity Server
+- xConnect Server (standalone)
+- xDB Search Worker
+- Marketing Automation Engine
+- Sitecore Cortex Processing Engine
+- Microsoft SQL Server
+- Apache Solr
+- RedisLabs Redis Server
+- Traefik Reverse Proxy
+
+The XP Workstation topology is aimed at reducing memory overhead, download size, and complexity while improving startup or shutdown times.
+
+#### XM Server
+
+This topology is for production and non-production environments, offering a streamlined deployment in Docker:
+
+- Content Management
+- Content Delivery
+- Sitecore Identity Server
+
+In non-production environments, XM Server aims to reduce deployment time and resource overhead by omitting the Content Delivery role from the Docker Compose configuration.
+
+#### XP Server
+
+The XP Server topology is for production and non-production environments and is designed to replicate the production configuration closely:
+
+- Content Management
+- Content Delivery
+- Sitecore Identity Server
+- xDB Processing
+- xDB Reporting Service
+- xDB Collection Service
+- xDB Search Service
+- Marketing Automation Service
+- xDB Reference Data Service
+- Sitecore Cortex Processing Service
+- Sitecore Cortex Reporting Service
+- xDB Search Worker
+- Marketing Automation Engine
+- Sitecore Cortex Processing Engine
+
+It requires significant resources to run, and when used in non-production environments, it should be supported by the hardware outlined earlier in the tutorial.
+
+#### Hardware Requirements
+
+Ensure that your system meets the following:
+
+- Support for running Hyper-V
+- Adequate resources for Sitecore development
+- Proper networking configuration
+
+TCP ports used by containers should be available to avoid conflicts and ensure smooth operation.
+
+#### Configuration Files
+
+To run Sitecore with containers, ensure you have:
+
+- A valid Sitecore license file
+- An environment variable (.env) file with proper settings
 
 ### Walkthrough: How to launch your Sitecore environment in Docker
 
