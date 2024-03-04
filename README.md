@@ -202,6 +202,76 @@ Proper configuration and management of the CM role are fundamental for efficient
 
 ### Video: Introduction to Sitecore Forms and Email Experience Manager
 ### Tutorial: Get started with Sitecore containers
+
+#### Software Prerequisites for a Containerized Sitecore Solution
+
+Before setting up Sitecore XP 10, ensure that all software systems are installed or updated to match the required versions.
+
+#### Windows 10
+
+- **Version:** Must be 1809 or later; 1909 recommended for process isolation.
+- **Hyper-V:** Enables running multiple OSes as virtual machines (VMs) on Windows.
+  - Install Hyper-V through Microsoft documentation or Docker Desktop installer.
+  - Process isolation helps lower RAM usage and requires Windows 10 version 1909.
+
+#### Docker Desktop for Windows
+
+- **Installation Steps:**
+  1. Download and run the Docker Desktop installer.
+  2. Choose Windows containers during installation.
+  3. Start Docker Desktop from the system tray.
+  4. Run `docker version` to check installation details.
+
+#### Docker Compose
+
+- Included with Docker Desktop installation.
+- Required files:
+  - `docker-compose.yaml`: Configuration for Sitecore containers.
+  - `.env`: Environment variables for deployment.
+
+#### Visual Studio/VSCode
+
+- Install the current versions of both IDEs from the Microsoft website for efficient coding.
+
+#### Hardware Settings for Running Sitecore 10 with Containers
+
+Ensure your hardware supports:
+
+- Running Hyper-V
+- Sitecore development with recommended settings:
+  - 32GB RAM
+  - CPU Quad Core or higher
+  - 40GB free disk space on SSD
+- Networking without port conflicts for Sitecore containers.
+
+#### Environment Variables for Sitecore Containers
+
+- **SITECORE_LICENSE:** Convert the Sitecore license file content to a GZIP compressed and Base64 encoded string.
+- **SITECORE_ID_CERTIFICATE_PASSWORD:** Password for the Identity Server certificate.
+- **Other Variables:** Include registry, version, admin and SQL passwords, and API keys.
+
+#### Confirming Hardware Settings
+
+- **Hyper-V Requirements:**
+  - 64-bit processor with SLAT
+  - Virtualization enabled in the BIOS
+
+- **Sitecore Development Hardware:**
+  - 32GB RAM (may vary based on instance type)
+  - CPU Quad Core or higher
+  - 40GB free disk space on SSD
+
+- **Networking:**
+  - Ensure required TCP ports are available for container usage.
+
+#### Verify Configuration Files
+
+To run Sitecore with containers:
+
+- Obtain a Sitecore license file.
+- Prepare an environment variable (.env) file with the necessary configurations.
+
+
 ### Walkthrough: How to launch your Sitecore environment in Docker
 
 
