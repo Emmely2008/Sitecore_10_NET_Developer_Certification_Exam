@@ -387,6 +387,39 @@ To run Sitecore with containers, ensure you have:
 ### Tutorial: Preparing, configuring, and installing XP0
 ### Video: Performing a Sitecore XP0 installation
 ### Tutorial: Manage updates and upgrades for Sitecore XP
+
+#### Sitecore Product Update Guide
+
+##### Introduction
+
+This guide outlines the terminology used by Sitecore for product updates, including feature releases, updates, and hotfixes. Understanding these terms will help in managing and implementing Sitecore updates effectively.
+
+##### Terminology
+
+###### Feature Release
+
+- **Definition**: Adds significant functionality to a product.
+- **Naming Convention**: Two-level version number and "Initial Release" label. E.g., Sitecore Experience Platform 9.1 Initial Release.
+- **Note**: Before Sitecore XP 9.1, releases were identified with a revision number.
+
+###### Update
+
+- **Definition**: Resolves issues associated with a specific product version. Updates are cumulative, meaning each one includes all the fixes from previous updates.
+- **Naming Convention**: Two-level version number matching the feature release, followed by an update number. E.g., Sitecore Experience Platform 10.1 Update-1.
+- **Note**: Before Sitecore XP 9.1, updates were identified with a revision number.
+
+###### Hotfix
+
+- **Definition**: Provided to resolve a single issue or a small set of issues.
+- **Example**: SC Hotfix 156031-1 CMS.Core 10.0.4 or Sitecore CMS 8.1 rev. 151207 Hotfix 148802-1.
+- **Quality Assurance**: Each hotfix undergoes a complete QA cycle.
+- **Delivery Timeline**: Typically delivered to customers within four weeks and released to the public within one to six months thereafter.
+
+##### Conclusion
+
+Understanding Sitecore's product update terminology is crucial for effective update management. This guide provides a clear overview of the terms and practices related to Sitecore updates.
+
+
 ### Podcast: Tips for seamless product updates and upgrades
 
 
