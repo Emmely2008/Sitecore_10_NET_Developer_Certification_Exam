@@ -419,6 +419,90 @@ This guide outlines the terminology used by Sitecore for product updates, includ
 
 Understanding Sitecore's product update terminology is crucial for effective update management. This guide provides a clear overview of the terms and practices related to Sitecore updates.
 
+#### Guide 1: Sitecore's Product Update Terminology
+
+###### Feature Release
+- **Definition**: Adds significant functionality to a product.
+- **Naming**: Two-level version number + "Initial Release" label.
+  - *Example*: Sitecore Experience Platform 9.1 Initial Release.
+- **Note**: Prior to Sitecore XP 9.1, revisions were used for release identification.
+
+###### Update
+- **Definition**: Addresses issues for a specific product version. Updates are cumulative.
+- **Naming**: Two-level version number matching the feature release + update number label.
+  - *Example*: Sitecore Experience Platform 10.1 Update-1.
+- **Note**: Before Sitecore XP 9.1, revisions identified updates.
+
+###### Hotfix
+- **Definition**: Targets a single or a small set of issues.
+- **Delivery**: Undergoes full QA, provided to customers within 4 weeks, and released publicly within 1-6 months after.
+- **Examples**:
+  - SC Hotfix 156031-1 CMS.Core 10.0.4
+  - Sitecore CMS 8.1 rev. 151207 Hotfix 148802-1
+
+
+##### Guide 2: How to Perform Technical Steps for Upgrades
+
+###### Add Connection Strings
+The initial step in preparing for a Sitecore upgrade is to add necessary connection strings for security and package management.
+
+###### Steps to Add Connection Strings
+1. **Open Connection Strings Configuration**
+   - Navigate to the `\App_Config` folder and open the `ConnectionStrings.config` file.
+2. **Add Security Connection String**
+   - Insert the security connection string as required.
+3. **Add Package Management Service URL**
+   - Insert the `PackageManagementServiceUrl` connection string.
+
+###### Disable Indexing
+To prevent performance degradation during the upgrade, it's recommended to disable indexing, especially in upgrades from versions where significant item changes occur.
+
+####### How to Disable Indexing
+- Comment out the following handlers in the `Sitecore.ContentSearch.config` file:
+  ```xml
+  <handler type="Sitecore.ContentSearch.Events.PackagingEventHandler, Sitecore.ContentSearch" method="OnPackageInstallItemsEndRemoteHandler"/>
+  <handler type="Sitecore.ContentSearch.Events.PackagingEventHandler, Sitecore.ContentSearch" method="OnPackageInstallItemsEndHandler" />
+
+#### Guide 3: How to Move to a New Version of Sitecore
+
+Moving to a new version of Sitecore involves several key steps to ensure a smooth transition. This guide outlines the essential steps in the upgrade process.
+
+##### Download an Upgrade Guide
+
+1. **Access Sitecore Downloads**
+   - Navigate to the Sitecore Downloads page.
+2. **Select Download Options**
+   - Click on "All Downloads", then choose "Get latest" for the most recent version or "See all versions" for specific versions.
+3. **Download Upgrade Guide**
+   - In the "Release information" section, find and download the appropriate upgrade guide.
+
+##### System Requirements
+
+Before starting an upgrade, verify that your system meets the minimum software and hardware requirements. The upgrade guide and the installation guide for the latest major version of Sitecore provide detailed information on these requirements.
+
+- **Reference**: Tutorial on preparing, configuring, and installing XP0 for specific requirements for Sitecore XP 10.1.
+
+##### Download Configuration Files for Upgrade
+
+1. **Visit Sitecore Downloads**
+   - Go to the Sitecore Downloads page.
+2. **Navigate to Downloads**
+   - Click "All Downloads", then "Get latest" for the newest version or "See all versions" for others.
+3. **Access Configuration Files**
+   - Scroll to "Upgrade options" and select "Configuration files for upgrade".
+4. **Prepare Upgrade Files**
+   - Download and unpack the ZIP file, such as "Sitecore 10.1.1 rev. 005862 (upgrade files)", and prepare the following:
+     - `App_Config.zip`
+     - `Database Upgrade Script`
+     - `Databases`
+     - `Disable xDB`
+     - `MarketingDefinitionsUpgrade`
+     - `XConnect Installation Script`
+     - `XConnect Upgrade Tool`
+
+The upgrade scripts are crucial for ensuring compatibility across Sitecore versions by applying necessary changes to the databases. This includes modifications to support new functionalities and performance improvements.
+
+
 
 ### Podcast: Tips for seamless product updates and upgrades
 
