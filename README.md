@@ -257,7 +257,57 @@ namespace Dev93Learning.Controllers
 ### ADDITIONAL SEARCH RELATED TOPICS
 #### Establish custom indexes
 #### Display search results
+```
+using System.Linq;
+using System.Web.Mvc;
+using Sitecore.ContentSearch;
+using Sitecore.ContentSearch.SearchTypes;
+using Sitecore.ContentSearch.Utilities;
+using Sitecore.Mvc.Presentation;
+using Sitecore.Links; //LinkManager
+using Dev93Learning.Models; //Models for project.
 
+namespace Dev93Learning.Controllers
+
+{
+    public class SearchController : Controller
+
+    {    // GET: Search 
+        public ActionResult Index()
+        {
+            //Create new item of SimpleSearch type.
+            var searchList = new SimpleSearch();
+            //Get the datasource item's GUID or path.
+            var datasourceId = RenderingContext.CurrentOrNull.Rendering.DataSource;
+
+            if (datasourceId != null)
+            {
+                //Get the datasource item itself using the GUID or path obtained above.
+                var articleItem = Sitecore.Context.Database.GetItem(datasourceId);
+
+                if (articleItem != null)
+                {
+                    //Create a search using ContentSearch API for all items. Only viable for Content Management as it uses a Master database index. Need to reference a Web database index for Content Delivery.
+                    var myIndex = ContentSearchManager.GetIndex("sitecore_master_index");
+                    using (var context = myIndex.CreateSearchContext())
+                    {
+                        //Search parameters for the Field name and the term it should include.
+                        var mySearch = context.GetQueryable<SearchResultItem>()
+                            .Where(x => x["Headline"].Contains("article")).ToList().Select(item => item.GetItem()).ToList();
+                        //Put items in a list with their item reference and URL
+                        searchList.ListOfItems = mySearch.Select(item => new NavItem
+                        {
+                            Item = item,
+                            Url = LinkManager.GetItemUrl(item),
+                        }).ToList();
+                    }
+                }
+            }
+            return View(searchList);
+        }
+    }
+}
+```
 
 # Go-live considerations
 ## Go-live considerations
