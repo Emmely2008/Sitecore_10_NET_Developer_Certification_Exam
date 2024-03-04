@@ -457,7 +457,7 @@ The initial step in preparing for a Sitecore upgrade is to add necessary connect
 ###### Disable Indexing
 To prevent performance degradation during the upgrade, it's recommended to disable indexing, especially in upgrades from versions where significant item changes occur.
 
-####### How to Disable Indexing
+###### How to Disable Indexing
 - Comment out the following handlers in the `Sitecore.ContentSearch.config` file:
   ```xml
   <handler type="Sitecore.ContentSearch.Events.PackagingEventHandler, Sitecore.ContentSearch" method="OnPackageInstallItemsEndRemoteHandler"/>
