@@ -223,6 +223,37 @@ If you would like additional information, this [article](https://doc.sitecore.co
 #### Use ContentSearch API
 
 - Sitecore.ContentSearch and Sitecore.ContentSearch.Linq DLL
+
+```
+using System.Linq;
+using System.Web.Mvc;
+using Sitecore.ContentSearch;
+using Sitecore.ContentSearch.SearchTypes;
+using Sitecore.ContentSearch.Utilities;
+using Sitecore.Mvc.Presentation;
+
+namespace Dev93Learning.Controllers
+{
+    public class SearchController : Controller
+    {
+        // GET: Search
+        public ActionResult Index()
+        {
+            var myItem = Sitecore.Context.Database.GetItem(RenderingContext.CurrentOrNull.Rendering.DataSource);
+            
+            var getIndex = ContentSearchManager.GetIndex((SitecoreIndexableItem)myItem);
+
+            using (var context = getIndex.CreateSearchContext())
+            {
+                var mySearch = context.GetQueryable<SearchResultItem>()
+                    .Where(x => x.Content.Contains("My Value"))
+                    .ToList().Select(item => item.GetItem()).ToList();
+            }
+            return View();
+        }
+    }
+}
+```
 ### ADDITIONAL SEARCH RELATED TOPICS
 #### Establish custom indexes
 #### Display search results
