@@ -512,15 +512,19 @@ The upgrade scripts are crucial for ensuring compatibility across Sitecore versi
 ## Single 3: Performance maximization, health monitoring, & Sitecore support
 
 ### Tutorial: Performance maximization and health monitoring
-### Podcast: Tips for maintaining optimal Sitecore product performance
-### Tutorial: Working with Sitecore support
-### Walkthrough: Submitting a Sitecore support case
-
 - All strategies delivered with Sitecore are defined in the Sitecore.ContentSearch configuration files.
 If you would like additional information, this [article](https://doc.sitecore.com/en/developers/101/platform-administration-and-architecture/index-update-strategies.html) can supplement the details provided in this guide.
 
 - Because this strategy triggers a full index rebuild, you should combine it with [SwitchOnRebuildSolrSearchIndex](https://doc.sitecore.com/en/developers/101/platform-administration-and-architecture/switch-solr-indexes.html).
 - You can use the [Knowledge Base](https://support.sitecore.com/kb) to troubleshoot problems, research known issues, or assess compatibility data for Sitecore products, modules, and platforms.
+
+### Podcast: Tips for maintaining optimal Sitecore product performance
+### Tutorial: Working with Sitecore support
+
+Figure 1: The three levels of Sitecore support. More information about Sitecore's support program is available [here](https://kb.sitecore.net/articles/463549). Click image to enlarge.
+
+### Walkthrough: Submitting a Sitecore support case
+
 
 
 - Response time for Standard Support cases ranges from one to three business days, depending on the severity of the issue. For a more specific breakdown of response times, see this [article](https://kb.sitecore.net/articles/583182).
