@@ -121,7 +121,7 @@
 - Note: More information about [Sitecore roles](https://doc.sitecore.com/en/developers/101/platform-administration-and-architecture/roles-overview.html) is available in Sitecore documentation.
 - Note: More information about [Sitecore XP roles](https://doc.sitecore.com/en/developers/100/platform-administration-and-architecture/experience-platform-roles.html) is available in Sitecore documentation.
 
-# Installing & Managing Sitecore Experience Platform 10
+# Chapt 2: Installing & Managing Sitecore Experience Platform 10
 
 ## Single 1: Sitecore architecture & containers
 
@@ -542,7 +542,7 @@ Figure 1: The three levels of Sitecore support. More information about Sitecore'
 
 - Note: For more information on how to register your Sitecore license, read this [article](https://support.sitecore.com/kb?id=kb_article_view&sysparm_article=KB0073804#HowToRegisterLicenseUsingLicenseXMLFile).
 
-# Development practices and serialization
+# Chapt 3: Development practices and serialization
 ## Development practices and serialization
 ### Sitecore Serialization with TDS
 - Sitecore TDS is available for trial by accessing the website [teamdevelopmentforsitecore.com](http://teamdevelopmentforsitecore.com/) and requesting a trial license.
