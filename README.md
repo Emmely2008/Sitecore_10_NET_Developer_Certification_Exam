@@ -551,20 +551,20 @@ Figure 1: The three levels of Sitecore support. More information about Sitecore'
 - Note: To learn more, see the [Arrange, Act, Assert](https://docs.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2019.) article by Microsoft.
 
 ### Debug a Sitecore project
-# Site structure and data architecture
+# Chapt 4: Site structure and data architecture
 ## Site structure and data architecture
 ### Deconstruct a webpage
 ### Creating data templates
 ### Template inheritance
 
-# Create items from data templates
+# Chapt 5: Create items from data templates
 ## Create items from data templates
 ### Standard values
 ### Insert options
 ### Use complex data and field types
 - To learn more about the list field types, review [Sitecore's documentation on simple field types](https://doc.sitecore.com/xp/en/developers/102/sitecore-experience-manager/the-simple-field-types.html).
 
-# Sitecore MVC component creation
+# Chapt 6: Sitecore MVC component creation
 ## Sitecore MVC component creation
 ### Create layouts, designate placeholders, and set presentation
 ### Use Sitecore MVC HTML Field Helpers
@@ -572,7 +572,7 @@ Figure 1: The three levels of Sitecore support. More information about Sitecore'
 ### Create view and controller renderings
 ### Bind components and create page presentation
 
-# Sitecore MVC advanced component creation
+# Chapt 6: Sitecore MVC advanced component creation
 ## Sitecore MVC advanced component creation
 ### Use dynamic placeholders
 - Note: To learn more about dynamic placeholders in Sitecore, please visit [Sitecore Documentation](https://doc.sitecore.com/developers/93/sitecore-experience-manager/en/dynamic-placeholders.html).
@@ -679,7 +679,7 @@ namespace Dev93Learning.Controllers
 }
 ```
 
-# Go-live considerations
+# Chapt 8: Go-live considerations
 ## Go-live considerations
 ### Configure Sitecore for security and performance
 - Certain databases hosted by MongoDB are secured by default. However, MongoDB offers a range of features you can use to ensure the security of your deployment, including authentication and access control. You can find more information about [securing MongoDB](https://www.mongodb.com/docs/manual/security/) here.
@@ -691,7 +691,7 @@ namespace Dev93Learning.Controllers
 ### Establish a launch strategy
 
 
-# Explore Sitecore Content Serialization (45m)
+# Chapt 9: Explore Sitecore Content Serialization (45m)
 ## Single 1: Explore Sitecore Content Serialization
 ### TRACK 1: UNDERSTAND CONTENT SERIALIZATION
 #### Instruction Lab
@@ -745,7 +745,7 @@ Note: In this Album, we will be using the Dotnet New Getting Started template. F
 #### Audio Lab
 
 
-# Get Started with Containers for Sitecore
+# Chapt 10: Get Started with Containers for Sitecore
 ## Single 1: Prepare to Run Sitecore Using Docker
 
 ### TRACK 1: REVIEW THE SYSTEM PREREQUISITES
@@ -838,7 +838,7 @@ This is accomplished by adding the required [Dockerfile instructions](https://co
 
 
 
-# Explore Components in ASP.NET Core (45m)
+# Chapt 11: Explore Components in ASP.NET Core (45m)
 
 ## Single 1: Prepare Your Workstation for Sitecore Headless Development
 #### TRACK 1: DISCOVER THE BASICS OF HEADLESS RENDERING
@@ -870,7 +870,7 @@ This is accomplished by adding the required [Dockerfile instructions](https://co
 
 
 
-# Developing with the ASP.NET Core Rendering SDK
+# Chapt 11: Developing with the ASP.NET Core Rendering SDK
 
 ## Single 1: Explore the component creation environment
 ### Tutorial: Sitecore using Docker containers
@@ -898,7 +898,7 @@ Please [see this documentation](https://doc.sitecore.com/developers/101/develope
 
 
 
-# Introduction to Sitecore Helix
+# Chapt 12: Introduction to Sitecore Helix
 
 
 ## Single 1: Define Sitecore Helix
@@ -927,7 +927,7 @@ Learn more about developing the [domain language with Sitecore Helix here](https
 ### Tutorial: Additional module conventions & common mistakes
 ### Podcast: An expert explores managing modules in Sitecore Helix
 
-# Implementing Sitecore Helix
+# Chapt 12: Implementing Sitecore Helix
 
 ## Single 1: Configure your implementation with Sitecore Helix
 
