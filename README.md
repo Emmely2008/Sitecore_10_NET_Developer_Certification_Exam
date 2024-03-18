@@ -1,7 +1,7 @@
 
 
 
-# Introduction to Developing with Sitecore
+# Chap 1: Introduction to Developing with Sitecore
 ## Introduction to Developing with Sitecore
 ### INTRODUCTION
 #### What is a Sitecore Developer?
@@ -18,7 +18,7 @@
 - [Sitecore JavaScript](https://doc.sitecore.com/xp/en/developers/hd/19/sitecore-headless-development/index-en.html)
 
 
-# Introduction to Sitecore Experience Manager (XM)
+# Chapt 1: Introduction to Sitecore Experience Manager (XM)
 
 ## Introduction to Sitecore Experience Manager (XM)
 
@@ -37,7 +37,7 @@
 - [Tracking and personalization](https://doc.sitecore.com/xp/en/developers/102/platform-administration-and-architecture/tracking-and-personalization.html)
 
 
-# Introduction to Sitecore Experience Platform (XP)
+# Chapt 1: Introduction to Sitecore Experience Platform (XP)
 
 ## Introduction to Sitecore Experience Platform (XP)
 
@@ -66,7 +66,7 @@
 - [Sitecore JavaScript Rendering SDKs (JSS)](https://doc.sitecore.com/xp/en/developers/hd/19/sitecore-headless-development/sitecore-javascript-rendering-sdks--jss-.html)
 - [Sitecore ASP.NET Rendering SDK](https://doc.sitecore.com/xp/en/developers/hd/19/sitecore-headless-development/sitecore-asp-net-rendering-sdk.html)
 
-# Sitecore 10 Development Features Overview
+# Chapt 1: Sitecore 10 Development Features Overview
 
 ## Single 1: Discover the Sitecore 10 Development Offerings
 
